@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import Navbar from "../Components/Navbar/Navbar";
 import About from "../Pages/About/About";
 import SingleCocktail from "../Pages/CocktailDetails/SingleCocktail";
+import NoDataFound from "../Pages/NoDataFound/NoDataFound";
 
 function LayoutRouter() {
   return (
@@ -11,12 +12,9 @@ function LayoutRouter() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-      </Routes>
-      <Routes>
         <Route path="/about" element={<About />} />
-      </Routes>
-      <Routes>
         <Route path="/cocktail/:id" element={<SingleCocktail />} />
+        <Route path="/*" element={<NoDataFound />} />
       </Routes>
     </Router>
   );

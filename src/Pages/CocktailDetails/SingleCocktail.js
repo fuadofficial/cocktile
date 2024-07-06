@@ -13,7 +13,7 @@ function SingleCocktail() {
     async function getCocktail() {
       try {
         const response = await axios.get(
-          `https://www.thecocktaildb.com/api/jso/v1/1/lookup.php?i=${id}`
+          `https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${id}`
         );
         const data = await response.data;
         if (data.drinks) {
@@ -69,9 +69,6 @@ function SingleCocktail() {
     cocktail;
   return (
     <section className="section cocktail-section">
-      <Link to="/" className="btn btn-primary">
-        Back to Home
-      </Link>
       <h2 className="section-title">{name}</h2>
       <div className="drink">
         <img src={image} alt="" />
@@ -98,12 +95,15 @@ function SingleCocktail() {
           </p>
           <p>
             <span className="drink-data">Ingredients:</span>
-            {ingredients.map((item, index) => 
+            {ingredients.map((item, index) =>
               item ? <span key={index}>{item}</span> : null
             )}
           </p>
         </div>
       </div>
+      <Link to="/" className="btn btn-primary">
+        Back to Home
+      </Link>
     </section>
   );
 }
