@@ -127,6 +127,9 @@ Navbar
 ======
 */
 .navbar {
+  width: 100%;
+  position:fixed;
+  top: 0px;
   background: var(--mainWhite);
   height: 5rem;
   display: flex;
@@ -267,7 +270,7 @@ Form
 ======
 */
 .search {
-  margin-top: 1rem;
+  margin-top: 70px;
   padding-bottom: 0;
 }
 
