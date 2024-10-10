@@ -1,6 +1,6 @@
 # The Cocktails Db
 
-** The Cocktails Db ** is a React-based web application that allows users to search for and discover various cocktails. The app provides detailed information on ingredients, instructions, and images for each cocktail.
+**The Cocktails Db** is a React-based web application that allows users to search for and discover various cocktails. The app provides detailed information on ingredients, instructions, and images for each cocktail.
 
 
 ## Features
