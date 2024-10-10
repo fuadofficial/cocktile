@@ -16,3 +16,6 @@
 ## Technologies Used
 
  * **React:** * Frontend framework
+ * **Jest:** * For testing
+ * **CSS:** * For styling and responsive design
+ * **Cocktail API:** * Fetches cocktail data
