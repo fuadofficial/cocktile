@@ -15,4 +15,4 @@
 
 ## Technologies Used
 
-** **React:** Frontend framework
+ * **React:** * Frontend framework
