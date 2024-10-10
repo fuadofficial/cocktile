@@ -10,4 +10,8 @@ Technologies Used
 React: Frontend framework
 Jest: For testing
 CSS: For styling and responsive design
+<<<<<<< HEAD
 Cocktail API: Fetches cocktail data
+=======
+Cocktail API: Fetches cocktail data
+>>>>>>> d898bfc8c0c3785a94bdd5b86589f183e4c57860
